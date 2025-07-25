@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Overflow Practice</title>
+  <style>
+    .container {
+      width: 300px;
+      height: 150px;
+      border: 2px solid #333;
+      margin: 20px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+
+    
+    .content {
+      width: 500px;
+      height: 300px;
+      background-color: red;
+    }
+    .overflow-visible{
+        overflow:scroll;
+        background-color:green;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CSS Overflow Examples</h2>
+
+  <h3>1. overflow: visible (default)</h3>
+  <div class="container overflow-visible">
+    <div class="content">This content overflows the box but is still visible. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi deleniti voluptate rem unde quaerat velit distinctio! Distinctio reprehenderit praesentium repellat.</div>
+  </div>
+
+  
+
+</body>
+</html>
